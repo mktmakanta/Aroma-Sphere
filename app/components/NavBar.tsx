@@ -20,7 +20,7 @@ const Navbar = () => {
               href="/"
               className="text-black text-lg font-medium font-serif lg:text-2xl"
             >
-              Aroma Sphere
+              Aroma De Royal
             </Link>
           </div>
 
