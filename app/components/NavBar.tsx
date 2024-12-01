@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import { Menu, ShoppingCart, User, X } from "lucide-react";
+import { Gem, Menu, ShoppingCart, User, X } from "lucide-react";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,9 +18,10 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link
               href="/"
-              className="text-black text-lg font-medium font-serif lg:text-2xl"
+              className="text-black text-lg font-medium font-serif lg:text-2xl flex gap-3 items-center"
             >
-              Aroma De Royal
+              <Gem className="size-8" />
+              <span> Aroma De Royal</span>
             </Link>
           </div>
 

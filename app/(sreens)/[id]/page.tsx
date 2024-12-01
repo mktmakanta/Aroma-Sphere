@@ -1,5 +1,4 @@
 import { notFound } from "next/navigation";
-
 import ProductDetails from "../../components/ProductDetails";
 import Products from "@/data/products";
 

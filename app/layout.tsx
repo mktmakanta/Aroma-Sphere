@@ -16,7 +16,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Aroma Sphere ",
+  title: "Aroma De Royal ",
   description: "A perfume company website",
 };
 
